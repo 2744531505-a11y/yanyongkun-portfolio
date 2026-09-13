@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="颜永坤人物形象">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0d18"/>
+      <stop offset="0.55" stop-color="#05060a"/>
+      <stop offset="1" stop-color="#0a0c18"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="36%" r="55%">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#a5b4fc" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2034"/>
+      <stop offset="1" stop-color="#0c0f1b"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a2b"/>
+      <stop offset="1" stop-color="#07080f"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="350" r="330" fill="url(#halo)" filter="url(#soft)"/>
+
+  <g stroke="rgba(255,255,255,0.055)" stroke-width="1">
+    <path d="M0 200H800M0 400H800M0 600H800M0 800H800"/>
+    <path d="M200 0V1000M400 0V1000M600 0V1000"/>
+  </g>
+
+  <circle cx="400" cy="330" r="172" fill="none" stroke="url(#ring)" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="400" cy="330" r="212" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-dasharray="3 14"/>
+  <circle cx="400" cy="330" r="168" fill="url(#head)"/>
+  <circle cx="400" cy="330" r="168" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <path d="M220 790C240 700 312 654 400 654C488 654 560 700 580 790V990H220V790Z" fill="url(#body)"/>
+  <path d="M220 790C240 700 312 654 400 654C488 654 560 700 580 790" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <g fill="rgba(255,255,255,0.12)">
+    <circle cx="350" cy="305" r="6"/>
+    <circle cx="450" cy="305" r="6"/>
+    <path d="M368 396C384 411 416 411 432 396" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g stroke="rgba(255,255,255,0.08)" stroke-width="1">
+    <path d="M258 388H314M486 388H542"/>
+    <path d="M286 442H342M458 442H514"/>
+  </g>
+
+  <circle cx="630" cy="180" r="8" fill="#67e8f9" fill-opacity="0.8"/>
+  <circle cx="158" cy="600" r="5" fill="#a5b4fc" fill-opacity="0.8"/>
+
+  <text x="52" y="936" fill="rgba(255,255,255,0.46)" font-family="Arial, sans-serif" font-size="28" letter-spacing="8">YONGKUN YAN</text>
+</svg>
